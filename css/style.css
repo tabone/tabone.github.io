@@ -6,6 +6,10 @@ h1, h2, p {
   font-size: 13px;
 }
 
+img {
+  width: 100%;
+}
+
 .page {
   width: 80ex;
   margin: 0 auto;
