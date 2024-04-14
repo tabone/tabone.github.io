@@ -1,5 +1,9 @@
 body {
-  font-family:monospace;
+  color: #677090;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  font-family: monospace;
+  background-color: #23283d;
 }
 
 h1, h2, p {
@@ -11,8 +15,9 @@ img {
 }
 
 .page {
-  width: 80ex;
+  width: 100%;
   margin: 0 auto;
+  max-width: 500px;
 }
 
 h1:before {
@@ -24,11 +29,11 @@ h2:before {
 }
 
 h1:before, h2:before {
-  color: #368ec6;
+  color: #66bade;
 }
 
 h1, h2 {
-  color: #7f2900;
+  color: #a582d9;
 }
 
 ul {
@@ -38,5 +43,16 @@ ul {
 
 ul li:before {
   content: '* ';
-  color: #e62e6c;
+  color: #e86482;
+}
+
+a {
+  color: #b79154;
+  text-decoration: none;
+}
+
+.ko-fi {
+  right: 8px;
+  bottom: 8px;
+  position: fixed;
 }
