@@ -2,11 +2,11 @@ body {
   color: #677090;
   padding-top: 16px;
   padding-bottom: 32px;
-  font-family: monospace;
   background-color: #23283d;
+  font-family: "Kode Mono", monospace;
 }
 
-h1, h2, p {
+h1, h2, li {
   font-size: 13px;
 }
 
@@ -49,6 +49,10 @@ ul li:before {
 a {
   color: #b79154;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .ko-fi {
